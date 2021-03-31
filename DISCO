@@ -1,0 +1,6 @@
+import turtle,time
+s=turtle.Screen()
+lst=['blue','lime','red','purple','cyan','yellow','orange','green','goldenrod','white','skyblue','violet','pink','indigo','brown','aqua','navy','crimson','spring green','dark blue','dark red','gold','turquoise','magenta','lime','red','darkblue','yellow','white']
+for i in lst:
+	s.bgcolor(i)
+	time.sleep(0.1)
